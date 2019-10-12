@@ -1,0 +1,173 @@
+
+
+
+.product-buttons > div {
+    display: inline-block;
+}
+
+.product-buttons .clear {
+    display: none;
+}
+
+.product-buttons i {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: #6c757d;
+    color: #fff;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.product-buttons .feedback {
+    display: none;
+}
+
+.product-buttons a.added_to_cart {
+    /* display: none; */
+    position: absolute;
+    left: 30px;
+    bottom: -40px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    line-height: 15px;
+    font-size: 14px;
+    width: 78%;
+}
+
+
+
+
+.rrfcommerce-products ul {
+    width: 100%;
+}
+ 
+.product-bg .row {
+    height: 320px;
+}
+ 
+.products .product-bg .star-rating {
+    margin: 0 auto;
+}
+ 
+.product-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    padding: 0 30px;
+}
+ 
+ 
+.product-buttons .clear {
+    display: none;
+}
+ 
+.product-buttons > div {
+    display: inline-block;
+}
+ 
+.product-buttons i.fa {
+    margin-right: 0px !important;
+}
+ 
+.product-buttons i.fa {
+    height: 40px;
+    width: 40px;
+    background: #A9A9A9;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+}
+ 
+.product-buttons span.feedback {
+    display: none;
+}
+ 
+.product-buttons i.fa {
+    margin: 5px;
+}
+ 
+.product-buttons .yith-wcwl-wishlistaddedbrowse i.fa,
+.product-buttons .yith-wcwl-wishlistexistsbrowse i.fa {
+    background-color: #CD2B2E;
+}
+ 
+.product-buttons i.fa:hover {
+    background-color: #333;
+}
+ 
+.product-buttons a.added_to_cart {
+    position: absolute;
+    bottom: -50px;
+    width: 109px;
+    background: #333;
+    padding: 5px;
+    font-size: 12px;
+    color: #fff;
+    margin-left: -50px;
+    left: 50%;
+}
+ 
+.product-buttons .added i.fa {
+    background-color: #000;
+}
+ 
+.products a h2 {color: #333}
+ 
+.product-bg .row {
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+ 
+.product-bg:hover .row {
+    opacity: 1;
+    visibility: visible;
+}
+ 
+.product-bg .star-rating {
+    margin-top: 15px !important;
+}
+ 
+.product-buttons .loading i.fa {
+    opacity: .5;
+}
+ 
+.product-buttons .compare {
+    text-indent: -9999px;
+    display: inline-block;
+}
+ 
+.product-buttons .compare:after {
+    content: "\f067";
+    text-indent: 0px;
+    display: block;
+    font-family: FontAwesome;
+    height: 40px;
+    width: 40px;
+    background: #A9A9A9;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    margin-left: 5px
+}
+ 
+.product-buttons .compare:hover:after {
+    background-color: #333
+}
+
+
+.woocommerce ul.products.slick-slider li.product, .woocommerce-page ul.products.slick-slider li.product {
+    clear: none;
+    margin: 0;
+}
+
+.woocommerce ul.products.slick-slider li.product {
+    margin-left: 30px;
+}
+
+.products .slick-list {
+    margin-left: -30px;
+}
